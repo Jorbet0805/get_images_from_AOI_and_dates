@@ -1,0 +1,29 @@
+# Ignore compiled Python bytecode files
+__pycache__/*.
+
+# Ignore virtual environment files
+.venv/
+env/
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+
+# Ignore temporary test files
+*.pyc
+*.pyo
+
+# Ignore environment variable files
+.env
+
+# Ignore unit test/coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Ignore documentation build files
+docs/_build/
+
+# Ignore store directory
+FileStore/
